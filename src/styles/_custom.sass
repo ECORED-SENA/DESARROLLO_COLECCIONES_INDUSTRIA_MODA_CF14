@@ -1,0 +1,112 @@
+.figure-introduccion
+  position: relative
+  img
+    position: relative
+  &::after 
+    position: absolute
+    content: 'Los insumos de moda son parte esencial en la confección y desarrollo de las prendas de vestir. En sus orígenes estaban ligados a la funcionalidad, pero hoy en día se pueden vincular incluso con el estilo; un ejemplo de esto es la transformación del botón; en sus orígenes era una pieza para garantizar el cierre y ajuste de las prendas, pasando en la Edad Media a convertirse en una joya con incrustaciones de piedras preciosas como símbolo de poder, hasta los desarrollos hoy en día de botones impresos en 3D. \A\ASeleccionar de manera adecuada los elementos que conforman un diseño de vestuario puede garantizar la armonía y el estilo de la prenda, avalando la durabilidad, calidad y un claro ADN de marca; pues en el mercado actual, los insumos pueden hablar de qué son las marcas.'
+    white-space: pre-wrap
+    top: 10%
+    bottom: 50%
+    left: 10%
+    right: 45%
+.figure-introduccion-2
+  background-color: #E1DFE0
+  display: none
+
+.flip-container
+	perspective: 1000px
+/* flip the pane when hovered */
+.flip-container:hover .flipper, .flip-container.hover .flipper, .flip-container.flip .flipper 
+	transform: rotateY(180deg)
+
+.flip-container, .front, .back
+	width: 100%
+	height: 480px
+
+/* flip speed goes here */
+.flipper
+	transition: 0.6s
+	transform-style: preserve-3d
+	position: relative
+
+/* hide back of pane during swap */
+.front, .back
+	backface-visibility: hidden
+
+	position: absolute
+	top: 0
+	left: 0
+
+/* front pane, placed above back */
+.front 
+	z-index: 2
+	/* for firefox 31 */
+	transform: rotateY(0deg)
+
+/* back, initially hidden pane */
+.back
+	transform: rotateY(180deg)
+
+.front.image1
+  background: url('../assets/curso/intro-imagen2.png') 0 0 no-repeat
+  background-size: contain
+.front.image2
+  background: url('../assets/curso/intro-imagen3.png') 0 0 no-repeat
+  background-size: contain
+.front.image3
+  background: url('../assets/curso/intro-imagen4.png') 0 0 no-repeat
+  background-size: contain
+.back.generic
+  background-color: #F2D6E3
+
+.tabla-a
+  table.especial
+    border-top: 5px solid $color-acento-contenido
+    tbody tr th
+      background-color: #EBEBEB
+
+
+@media screen and ( max-width: 1399px )
+  .figure-introduccion
+    &::after
+      top: 5%
+      bottom: 5%
+      left: 5%
+      right: 25%
+      background-color: #E1DFE0
+      padding: 15px
+      border-radius: 25px
+  .comparacion
+    > p
+      padding: 4em 3em
+      font-size: 0.75rem
+@media screen and ( max-width: 1200px )
+  .figure-introduccion
+    &::after
+      top: 5%
+      bottom: 5%
+      left: 5%
+      right: 5%
+      background-color: #E1DFE0
+      padding: 15px
+      border-radius: 25px
+      font-size: 14px
+  .figure-introduccion-2
+    display: none
+  .comparacion
+    > p
+      padding: 5em 3em
+      font-size: 0.6rem
+
+
+@media screen and ( max-width: 991px )
+  .figure-introduccion
+    display: none
+  .figure-introduccion-2
+    display: inherit
+  .comparacion
+    > p
+      padding: 8em 3em
+      font-size: 1.2rem
+
