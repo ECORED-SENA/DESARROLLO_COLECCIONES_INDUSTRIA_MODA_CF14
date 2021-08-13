@@ -69,6 +69,26 @@
 .cajon.color-primario
   background-color: #F2D6E3
   
+.acordion__titulo
+  h3
+    color: $color-primario
+
+.box-center-color
+  position: relative
+  .col-lg-2
+    position: relative
+  .col-lg-10
+    position: relative
+  &::before
+    position: absolute
+    content: ''
+    background: #F2D6E3
+    top: 22%
+    bottom: 22%
+    left: 0
+    right: 0
+
+
 @media screen and ( max-width: 1399px )
   .figure-introduccion
     &::after

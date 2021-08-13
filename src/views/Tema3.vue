@@ -8,10 +8,10 @@
         span 3
       h1 Insumos de empaque
       
-    .cajon.color-acento-contenido.p-4.mb-4
+    .cajon.color-acento-contenido.p-4.mb-5(data-aos="fade-in")
       p En este segmento se exponen aquellos insumos que cumplen una función informativa (marquillas de talla, marca de instrucciones de lavado y composición) y de protección (empaque y etiquetas) de las prendas ya terminadas para continuar con su proceso de distribución y entrega al cliente o consumidor final. Las opciones que se mencionan a continuación son las más usuales, pero pueden variar según las especificaciones del diseño, el tipo de producto y segmento del mercado, pues estos elementos también deben transmitir el ADN de la marca.
     
-    SlyderB.mb-5(:datos="datosSlyder")
+    SlyderB.mb-5(:datos="datosSlyder")(data-aos="fade-in")
 
 </template>
 

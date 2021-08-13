@@ -8,7 +8,7 @@
         span 1
       h1 Clasificación de insumos
     
-    .row.mb-5.justify-content-center
+    .row.mb-5.justify-content-center(data-aos="slide-right")
       .col-lg-10
         .row.mb-5
           .col-lg-8.mb-5.mb-lg-0
@@ -21,7 +21,7 @@
         .cajon.color-primario.p-4.mb-4
           p Por otro lado, se tienen los <strong>insumos de empaques</strong> que son todos los elementos que aportan a la entrega clara y oportuna del producto al usuario o cliente final. Allí se encuentra el tema de etiquetas informativas (tallas, materiales, instrucciones de cuidado), empaques, ganchos; es decir, son todos los insumos necesarios para la comercialización de las prendas.
 
-    .row.mb-5.justify-content-center
+    .row.mb-5.justify-content-center(data-aos="slide-left")
       .col-lg-8
         .titulo-sexto.color-acento-contenido.mb-5
           span Figura 1. Clasificación de insumos.
