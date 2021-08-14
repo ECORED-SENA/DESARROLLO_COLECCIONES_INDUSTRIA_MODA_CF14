@@ -640,17 +640,10 @@
                 p.mb-0.mt-3 Se presentaron los insumos más utilizados en la confección de la clasificación «ropa interior y deportiva», donde se evidenciaron los distintos elementos más usados para pantis, brasier, bóxer y ropa deportiva en general.
 
     Separador
-    //- El componente "Muestras" tiene las aplicaciones de todos los componentes de la base
-    //- se encuentra en src/components/Muestras.vue
-    //- Una vez el componente "Muestras" no se necesite 
-    //- Se debe borrar el "import Muestras from '../components/Muestras'" y en "components" en "<script"
-    //- esto evitará que se compile en la carpeta final de distribución
-    Muestras
 
 </template>
 
 <script>
-import Muestras from '../components/Muestras' // borrar una vez el componente "Muestras" no se necesite
 import TabSpecial from '../components/TabSpecial'
 import SliderCajas from '../components/SliderCajas'
 
@@ -668,7 +661,6 @@ const numerotab5 = require('@/assets/curso/tema2-numero5.svg')
 export default {
   name: 'Tema2',
   components: {
-    Muestras, // borrar una vez el componente "Muestras" no se necesite
     TabSpecial,
     SliderCajas,
   },
