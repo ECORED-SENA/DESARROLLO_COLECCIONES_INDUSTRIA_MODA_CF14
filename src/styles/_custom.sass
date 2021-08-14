@@ -255,5 +255,59 @@
     background-color: $color-acento-botones
     color: $white
 
+.tabla-a.special.color-acento-botones
+  table
+    thead
+      border-top: none
+      background-color: #DBEDFC
+      border-color: #DBEDFC
 
+.lista-ol--cuadro.lista-ol--separador
+  border-top: 2px solid #AFAFAF
+  border-bottom: 2px solid #AFAFAF
 
+  li
+    border-bottom: 2px solid #AFAFAF
+    &:last-child
+      border-bottom: none
+
+  .lista-ol--cuadro__vineta.color-primario
+    background-color: $color-primario
+    
+hr.especial
+  background-color: $color-primario
+  border-color: $color-primario
+  height: 5px
+  opacity: 0.8
+
+.ribbon
+  font-size: 20px
+  position: relative
+  display: inline-block
+  text-align: center
+  .text
+    display: inline-block
+    padding: 0.5em 1em
+    min-width: 10em
+    line-height: 1.2em
+    background: $color-acento-botones
+    color: white
+    position: relative
+    border-bottom-left-radius: 20px !important
+    border-bottom-right-radius: 20px !important
+
+  .text:before,.text:after
+    content: ''
+    position: absolute
+    border-style: solid
+  
+  .text:before
+    top: 0
+    left: -.7em
+    border-width: .7em .7em 0 0
+    border-color: transparent #478A88 transparent transparent
+  .text:after
+    top: 0
+    right: -.7em
+    border-width: 0 .7em .7em 0
+    border-color: transparent transparent #478A88 transparent
