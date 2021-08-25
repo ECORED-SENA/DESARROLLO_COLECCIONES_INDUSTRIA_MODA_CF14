@@ -23,7 +23,7 @@ export default {
       {
         titulo: 'Marquillas talla',
         texto:
-          'Diseñada en diferentes materiales, fija o removible. Ofrece al cliente la composición del tejido y los cuidados que debe tener la prenda durante su uso.',
+          'Diseñada en diferentes materiales como nylon poliéster, estampada o tejida; permite identificar la prenda por su talla.',
         imagen: require('@/assets/curso/tema3-imagen1.png'),
       },
       {

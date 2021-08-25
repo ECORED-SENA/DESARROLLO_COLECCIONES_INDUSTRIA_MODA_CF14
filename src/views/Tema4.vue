@@ -23,7 +23,7 @@
                 p.mb-0 En las empresas de confección, este proceso corresponde a la revisión de la calidad de los insumos y suministros que se usarán en la confección de las prendas. Para realizar dicha inspección se desarrolla un formato en el que se registran las especificaciones de los diferentes insumos, según la prenda a desarrollar y la línea de producción, y se revisa si se cumplen con los mínimos de calidad exigidos para garantizar la calidad de la prenda a confeccionar. El siguiente video muestra cómo es este proceso.
           figure
             .video
-              iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+              iframe(width="560" height="315" src="https://www.youtube.com/embed/HoLZv-WxqyU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       
       .row(titulo="Manualidades y aplicaciones")
         .col-12
@@ -58,7 +58,7 @@
                     strong Mesa de planchado industrial a vapor:  
                     | este tipo de mesa polifuncional permite realizar planchado en diferentes puntos de la prenda, incluso en puntos circulares como mangas de camisa y botas de pantalones.
     
-    .row.align-items-center.box-center-color(data-aos="fade-up")
+    .row.align-items-center.box-center-color
       .col-lg-2.mb-4.mb-lg-0
         figure.mb-4
           img(src="@/assets/curso/tema4-imagen5.svg")

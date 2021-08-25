@@ -92,7 +92,7 @@
             ul.lista-ul--color.mb-4
               li 
                 i.fas.fa-angle-right
-                | Camisa formal.
+                | Pantalones informales.
 
             p.mb-5 En la siguiente tabla se presentan los insumos de mayor uso dentro de este tipo de prendas, si bien hay elementos comunes, está a criterio del equipo de diseño qué insumos usar o combinar, según la temporada o tendencias de moda.
 
@@ -217,7 +217,7 @@
                       figure
                         img(src="@/assets/curso/tema2-imagen19.svg")
                   p.mb-4 Para conocer más sobre la forma de elaboración, tipos de hilos más comunes y características, se puede revisar el video Clasificación de los hilos de la Red Producción de Contenidos, Grupo Gestión Curricular SENA disponible en el siguiente enlace
-                  a.anexo.mb-4.mb-lg-0(href="https://en.wikipedia.org/wiki/Main_Page" target="_blank")
+                  a.anexo.mb-4.mb-lg-0(href="https://www.youtube.com/watch?v=qUdbl6B18Bg&t=1661s" target="_blank")
                     .anexo__icono
                       img(src="@/assets/template/icono-link.svg")
                     .anexo__texto
